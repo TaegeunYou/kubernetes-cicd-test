@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       # Change your account id
-      - image: 221082210998.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-app:latest
+      - image: 221082210998.dkr.ecr.ap-northeast-2.amazonaws.com/cicd-app:f7835dcc2cadba264bdab092cdebb47f9065588a
         imagePullPolicy: Always
         name: app-cicd
         ports:
